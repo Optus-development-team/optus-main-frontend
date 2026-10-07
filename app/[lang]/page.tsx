@@ -6,6 +6,7 @@ import { Awards } from "@/components/sections/Awards";
 import { Contact } from "@/components/sections/Contact";
 import { Hero } from "@/components/sections/Hero";
 import { Products } from "@/components/sections/Products";
+import { Team } from "@/components/sections/Team";
 import { Ticker } from "@/components/sections/Ticker";
 import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -20,7 +21,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const dict = await getDictionary(lang);
-  const [products, awards, about, contact] = dict.nav.items;
+  const [products, awards, about, team, contact] = dict.nav.items;
 
   return (
     <ViewTransition enter="page-enter" exit="page-exit" default="none">
@@ -29,6 +30,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <Products dict={dict} id={products.id} />
       <Awards dict={dict} id={awards.id} />
       <About dict={dict} id={about.id} />
+      <Team dict={dict} id={team.id} />
       <Contact dict={dict} id={contact.id} />
     </ViewTransition>
   );

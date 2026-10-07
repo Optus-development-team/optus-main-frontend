@@ -47,7 +47,6 @@ export function About({ dict, id }: { dict: Dictionary; id: string }) {
           ))}
         </dl>
       </div>
-      <PixelEdge color="var(--color-ink)" />
     </section>
   );
 }

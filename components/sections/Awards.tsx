@@ -1,5 +1,6 @@
 import Image, { type StaticImageData } from "next/image";
-import cides from "@/assets/awards/cides-umsa.png";
+import cide from "@/assets/awards/cide-umsa.png";
+import deiu from "@/assets/awards/deiu-umsa.jpg";
 import hack2build from "@/assets/awards/hack2build-payments-x402.jpg";
 import incuba from "@/assets/awards/incuba-union-tecnologico-3.png";
 import { Bars } from "@/components/ui/Bars";
@@ -12,8 +13,9 @@ import { site, type AwardKey } from "@/lib/site";
 /** Imagen de cada reconocimiento. `cover` llena el marco; los logotipos van centrados sobre papel. */
 const media: Record<AwardKey, { image: StaticImageData; fit: "cover" | "contain" }> = {
   hack2build: { image: hack2build, fit: "cover" },
-  cides: { image: cides, fit: "contain" },
+  cides: { image: cide, fit: "contain" },
   incuba: { image: incuba, fit: "contain" },
+  deiu: { image: deiu, fit: "contain" },
 };
 
 /** Reconocimientos: premios y programas, sobre las barras de luz. */
@@ -46,7 +48,7 @@ export function Awards({ dict, id }: { dict: Dictionary; id: string }) {
           </div>
         </div>
 
-        <ol className="mt-14 grid gap-5 md:mt-20 lg:grid-cols-3">
+        <ol className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2">
           {keys.map((key, index) => {
             const text = awards.items[key];
             const { image, fit } = media[key];

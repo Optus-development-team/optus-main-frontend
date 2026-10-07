@@ -11,7 +11,7 @@ export function Contact({ dict, id }: { dict: Dictionary; id: string }) {
     <section id={id} className="grain relative scroll-mt-20 bg-ink text-paper">
       <div className="shell py-24 md:py-36">
         <p className="section-label">
-          <span>[ 04 ]</span>
+          <span>[ 05 ]</span>
           {contact.label}
         </p>
 

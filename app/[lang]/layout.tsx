@@ -77,8 +77,9 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
       lang={localeTags[lang].hreflang}
       className={`${archivo.variable} ${mono.variable} antialiased`}
       data-scroll-behavior="smooth"
+      suppressHydrationWarning
     >
-      <body>
+      <body suppressHydrationWarning>
         <a href="#contenido" className="skip-link">
           {dict.nav.skip}
         </a>

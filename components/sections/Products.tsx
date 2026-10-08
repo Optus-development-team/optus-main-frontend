@@ -31,14 +31,6 @@ const stages: Record<ProductKey, { style: CSSProperties; logo: ReactNode }> = {
       </>
     ),
   },
-  pasanaku: {
-    style: { "--stage": "#e8f5e9", "--stage-ink": "#1b5e20", "--stage-accent": "#4caf50" } as CSSProperties,
-    logo: (
-      <div className="flex items-center justify-center font-bold text-[clamp(2.2rem,4.6vw,4rem)] text-[#1b5e20] tracking-tight">
-        Pasanaku
-      </div>
-    ),
-  },
 };
 
 /** Los dos productos de Optus, con sus tecnologías y el enlace a cada sitio. */

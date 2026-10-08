@@ -27,8 +27,7 @@ const es = {
     items: [
       { id: "productos", label: "Productos" },
       { id: "reconocimientos", label: "Reconocimientos" },
-      { id: "nosotros", label: "Nosotros" },
-      { id: "equipo", label: "El Equipo" },
+      { id: "equipo", label: "Equipo" },
       { id: "contacto", label: "Contacto" },
     ],
     cta: "Hablemos",
@@ -97,7 +96,7 @@ const es = {
         category: "Billetera digital en WhatsApp",
         tagline: "Tu dinero viaja a la velocidad de un mensaje",
         description:
-          "Envía, recibe y cobra dólares digitales simplemente chateando. No requiere instalar aplicaciones adicionales y cada operación se valida con tu huometría: tú mantienes el control absoluto de tus fondos.",
+          "Envía, recibe y cobra dólares digitales simplemente chateando. Cobra al instante con validación de pagos vía QR Simple boliviano y dólares digitales (USDC), sin riesgo de comprobantes falsos. No requiere instalar aplicaciones adicionales y mantienes el control absoluto de tus fondos.",
         points: ["Billetera de autocustodia total", "Generación de cobros con código QR", "Confirmación mediante huella o reconocimiento facial"],
         chat: ["enviar 20 a Ana", "Transacción exitosa. Enviaste 20 USD a Ana."],
       },
@@ -109,7 +108,40 @@ const es = {
         points: ["Disponibilidad 24/7 ininterrumpida", "Cierre de ventas y cobros dentro del chat", "Gestión de inventario y analíticas"],
         chat: ["¿Tienen disponible el modelo en azul?", "Sí, nos quedan 4 unidades. ¿Deseas que te reserve uno?"],
       },
+      pasanaku: {
+        category: "Casos de Uso · Ahorro Colectivo",
+        tagline: "Pasanaku y Ahorro Colectivo Automatizado",
+        description: "Organiza tus grupos de ahorro rotativo (pasanaku) directamente en WhatsApp sin planillas de Excel ni desorden.",
+        points: [
+          "Recordatorios y turnos automáticos asignados por el bot",
+          "Cobros verificados al instante vía QR Simple (Bs.) y USDC",
+          "Resguardo transparente mediante contratos inteligentes y rendimientos pasivos mientras los fondos esperan su turno"
+        ],
+        chat: ["¿A quién le toca el pasanaku hoy?", "Hoy le toca a Carlos recibir el fondo de 500 Bs."],
+      },
     },
+  },
+  pricing: {
+    label: "Tarifas Transparentes",
+    title: ["Tarifas claras,", "cero sorpresas."],
+    lead: "Tecnología accesible para todos. Sin costos ocultos, sin comisiones sorpresa.",
+    items: [
+      {
+        title: "Uso del bot y recordatorios por chat",
+        price: "100% gratuito",
+        description: "Sin costo mensual. Automatiza tu atención, agenda y recordatorios por WhatsApp.",
+      },
+      {
+        title: "Transferencias dentro del sistema",
+        price: "0% comisión",
+        description: "Mueve tus fondos entre usuarios del ecosistema Optus de forma instantánea y sin costo.",
+      },
+      {
+        title: "Liquidación a cuenta bancaria",
+        price: "0.5% – 1%",
+        description: "Microcomisión reducida de solo 0.5% a 1% al retirar tus fondos hacia cualquier cuenta bancaria nacional vía QR.",
+      },
+    ],
   },
   awards: {
     label: "Reconocimientos",
@@ -160,10 +192,10 @@ const es = {
     title: ["Quiénes", "somos."],
     lead: "Un grupo de desarrolladores apasionados por crear tecnología útil desde Bolivia para el mundo.",
     roles: {
-      erick: "Desarrollador de Software",
-      fabricio: "Desarrollador de Software",
-      franco: "Desarrollador de Software",
-      saul: "Desarrollador de Software",
+      erick: "Desarrollador Backend & APIs",
+      fabricio: "Liderazgo de Proyecto & Producto",
+      franco: "Desarrollador de Infraestructura & Cloud",
+      saul: "Desarrollo & Smart Contracts",
     },
   },
   contact: {
@@ -181,11 +213,11 @@ const es = {
   footer: {
     tagline: "Tecnología boliviana que trabaja por ti.",
     products: "Productos",
-    company: "Empresa",
+    company: "Proyecto",
     legal: "Legal",
     privacy: "Política de privacidad",
     terms: "Términos de servicio",
-    rights: "Todos los derechos reservados.",
+    rights: "Proyecto de innovación tecnológica desarrollado en La Paz, Bolivia.",
     madeIn: "Hecho en La Paz, Bolivia",
     backToTop: "Volver arriba",
   },
@@ -210,7 +242,7 @@ const es = {
         {
           title: "Quiénes somos",
           body: [
-            "Optus es una empresa de tecnología con sede en La Paz, Bolivia, responsable de este sitio y de las marcas Optipagos y Optimype.",
+            "Optus es una iniciativa de innovación tecnológica con sede en La Paz, Bolivia, responsable de este sitio y de las marcas Optipagos y Optimype.",
             "Para cualquier consulta sobre privacidad puedes escribirnos a optus.aut@gmail.com.",
           ],
         },
@@ -298,7 +330,7 @@ const es = {
         {
           title: "Sobre Optus y este sitio",
           body: [
-            "Optus es una empresa de tecnología con sede en La Paz, Bolivia. Este sitio presenta a la empresa, sus productos (Optipagos y Optimype) y los reconocimientos que ha recibido.",
+            "Optus es una iniciativa de desarrollo e innovación tecnológica con sede en La Paz, Bolivia. Este sitio presenta el proyecto, sus soluciones (Optipagos y Optimype) y los reconocimientos que ha recibido.",
           ],
         },
         {

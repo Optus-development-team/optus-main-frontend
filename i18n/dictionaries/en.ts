@@ -23,8 +23,7 @@ const en: Dictionary = {
     items: [
       { id: "products", label: "Products" },
       { id: "awards", label: "Recognition" },
-      { id: "about", label: "About" },
-      { id: "team", label: "The Team" },
+      { id: "team", label: "Team" },
       { id: "contact", label: "Contact" },
     ],
     cta: "Let's talk",
@@ -93,7 +92,7 @@ const en: Dictionary = {
         category: "A digital wallet in WhatsApp",
         tagline: "Your money travels at the speed of a message",
         description:
-          "Send, receive, and collect digital dollars simply by chatting. No need to install additional apps, and every operation is validated with your biometrics: you keep absolute control over your funds.",
+          "Send, receive, and collect digital dollars simply by chatting. Collect instantly with payment validation via Bolivian QR Simple and digital dollars (USDC), without the risk of fake receipts. No need to install additional apps, and you keep absolute control over your funds.",
         points: ["Full self-custody wallet", "QR code payment generation", "Fingerprint or facial recognition confirmation"],
         chat: ["send 20 to Ana", "Transaction successful. You sent 20 USD to Ana."],
       },
@@ -105,7 +104,40 @@ const en: Dictionary = {
         points: ["Uninterrupted 24/7 availability", "In-chat sales and payment processing", "Inventory management and analytics"],
         chat: ["Do you have the blue model in stock?", "Yes, we have 4 units left. Would you like me to reserve one?"],
       },
+      pasanaku: {
+        category: "Use Cases · Collective Savings",
+        tagline: "Pasanaku and Automated Collective Savings",
+        description: "Organize your rotating savings groups (pasanaku) directly in WhatsApp without Excel spreadsheets or mess.",
+        points: [
+          "Automatic reminders and turns assigned by the bot",
+          "Instantly verified collections via QR Simple (Bs.) and USDC",
+          "Transparent safeguard via smart contracts and passive yields while funds wait their turn"
+        ],
+        chat: ["Whose turn is it for pasanaku today?", "Today it's Carlos's turn to receive the 500 Bs. fund."],
+      },
     },
+  },
+  pricing: {
+    label: "Transparent Pricing",
+    title: ["Clear rates,", "zero surprises."],
+    lead: "Accessible technology for everyone. No hidden costs, no surprise fees.",
+    items: [
+      {
+        title: "Bot usage and chat reminders",
+        price: "100% free",
+        description: "No monthly fee. Automate support, scheduling, and reminders directly on WhatsApp.",
+      },
+      {
+        title: "In-system transfers",
+        price: "0% fee",
+        description: "Move your funds between Optus ecosystem users instantly and at no cost.",
+      },
+      {
+        title: "Bank account liquidation",
+        price: "0.5% – 1%",
+        description: "Reduced micro-commission of only 0.5% to 1% when withdrawing funds to any national bank account via QR.",
+      },
+    ],
   },
   awards: {
     label: "Recognition",
@@ -156,10 +188,10 @@ const en: Dictionary = {
     title: ["Who", "we are."],
     lead: "A group of passionate developers creating useful technology from Bolivia for the world.",
     roles: {
-      erick: "Software Developer",
-      fabricio: "Software Developer",
-      franco: "Software Developer",
-      saul: "Software Developer",
+      erick: "Backend & API Developer",
+      fabricio: "Project & Product Leadership",
+      franco: "Infrastructure & Cloud Developer",
+      saul: "Development & Smart Contracts",
     },
   },
   contact: {
@@ -177,11 +209,11 @@ const en: Dictionary = {
   footer: {
     tagline: "Bolivian technology that does the work for you.",
     products: "Products",
-    company: "Company",
+    company: "Project",
     legal: "Legal",
     privacy: "Privacy policy",
     terms: "Terms of service",
-    rights: "All rights reserved.",
+    rights: "Technological innovation project developed in La Paz, Bolivia.",
     madeIn: "Made in La Paz, Bolivia",
     backToTop: "Back to top",
   },
@@ -205,7 +237,7 @@ const en: Dictionary = {
         {
           title: "Who we are",
           body: [
-            "Optus is a technology company based in La Paz, Bolivia, responsible for this site and for the Optipagos and Optimype brands.",
+            "Optus is a technological innovation initiative based in La Paz, Bolivia, responsible for this site and for the Optipagos and Optimype brands.",
             "For any privacy question you can write to us at optus.aut@gmail.com.",
           ],
         },
@@ -293,7 +325,7 @@ const en: Dictionary = {
         {
           title: "About Optus and this site",
           body: [
-            "Optus is a technology company based in La Paz, Bolivia. This site presents the company, its products (Optipagos and Optimype) and the recognition it has received.",
+            "Optus is a technological innovation initiative based in La Paz, Bolivia. This site presents the project, its solutions (Optipagos and Optimype) and the recognition it has received.",
           ],
         },
         {

@@ -51,6 +51,17 @@ export const site = {
         "React",
       ],
     },
+    pasanaku: {
+      name: "Pasanaku",
+      url: "https://pasatanda.bamp.lat/",
+      domain: "pasatanda.bamp.lat",
+      tech: [
+        "WhatsApp Cloud API",
+        "Smart Contracts",
+        "QR Simple (Bs)",
+        "USDC",
+      ],
+    },
   },
   awards: {
     hack2build: "https://build.avax.network/hackathons/5ce3a8c2-21db-40fa-b40f-f82ecdde99db",
@@ -60,8 +71,19 @@ export const site = {
   },
   team: [
     {
+      id: "fabricio",
+      name: "Fabricio Oliver Echeverria Poma",
+      image: "/img/Fabricio_Echeverria.jpeg",
+      qr: "/img/in_qr_frabricio.png",
+      social: {
+        linkedin: "https://www.linkedin.com/in/fabricio-oliver-539248186",
+        github: "https://github.com/Fabri-404",
+        instagram: "https://www.instagram.com/afk.fabri/",
+      },
+    },
+    {
       id: "saul",
-      name: "Saúl Choquehuanca",
+      name: "Saul Mijael Choquehuanca Huanca",
       image: "/img/Sau_lChoquehuanca.jpeg",
       qr: "/img/in_qr_saul.png",
       social: {
@@ -72,7 +94,7 @@ export const site = {
     },
     {
       id: "franco",
-      name: "Franco Ayala",
+      name: "Franco Mario Ayala Quispe",
       image: "/img/Franco_Ayala.png",
       qr: "/img/in_qr_franco.png",
       social: {
@@ -82,19 +104,8 @@ export const site = {
       },
     },
     {
-      id: "fabricio",
-      name: "Fabricio Echeverría",
-      image: "/img/Fabricio_Echeverria.jpeg",
-      qr: "/img/in_qr_frabricio.png",
-      social: {
-        linkedin: "https://www.linkedin.com/in/fabricio-oliver-539248186",
-        github: "https://github.com/Fabri-404",
-        instagram: "https://www.instagram.com/afk.fabri/",
-      },
-    },
-    {
       id: "erick",
-      name: "Erick Poma",
+      name: "Erick Fernando Poma Condori",
       image: "/img/Erick_Poma.png",
       qr: "/img/in_qr_erick.png",
       social: {

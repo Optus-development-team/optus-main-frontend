@@ -6,6 +6,7 @@ const routes: { route: RouteKey; priority: number }[] = [
   { route: "home", priority: 1 },
   { route: "privacy", priority: 0.3 },
   { route: "terms", priority: 0.3 },
+  { route: "links", priority: 0.5 },
 ];
 
 const absolute = (path: string) => `${site.url}${path === "/" ? "" : path}`;

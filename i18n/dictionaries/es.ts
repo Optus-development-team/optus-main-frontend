@@ -189,6 +189,18 @@ const es = {
     madeIn: "Hecho en La Paz, Bolivia",
     backToTop: "Volver arriba",
   },
+  links: {
+    title: "Enlaces",
+    desc: "Todos los enlaces de Optus: productos, contacto, redes, equipo y reconocimientos en un solo lugar.",
+    lead: "Todo Optus en un solo lugar: productos, contacto, redes y equipo.",
+    products: "Productos",
+    contact: "Contacto",
+    social: "Redes",
+    team: "Equipo",
+    awards: "Reconocimientos",
+    legal: "Legal",
+    visit: "Visitar",
+  },
   notFound: {
     code: "404",
     title: "Esta página no existe.",
@@ -211,7 +223,7 @@ const es = {
           title: "Quiénes somos",
           body: [
             "Optus es una empresa de tecnología con sede en La Paz, Bolivia, responsable de este sitio y de las marcas Optipagos y Optimype.",
-            "Para cualquier consulta sobre privacidad puedes escribirnos a optus.aut@gmail.com.",
+            "Para cualquier consulta sobre privacidad puedes escribirnos a ventas@optus.lat.",
           ],
         },
         {
@@ -262,7 +274,7 @@ const es = {
         {
           title: "Tus derechos",
           body: [
-            "Puedes pedirnos acceder a tus datos, corregirlos, eliminarlos u oponerte a su uso escribiendo a optus.aut@gmail.com. Te responderemos en un plazo razonable y, si hace falta, te pediremos confirmar tu identidad.",
+            "Puedes pedirnos acceder a tus datos, corregirlos, eliminarlos u oponerte a su uso escribiendo a ventas@optus.lat. Te responderemos en un plazo razonable y, si hace falta, te pediremos confirmar tu identidad.",
           ],
         },
         {
@@ -349,7 +361,7 @@ const es = {
         },
         {
           title: "Contacto",
-          body: ["Si tienes preguntas sobre estos términos, escríbenos a optus.aut@gmail.com."],
+          body: ["Si tienes preguntas sobre estos términos, escríbenos a ventas@optus.lat."],
         },
       ],
     },

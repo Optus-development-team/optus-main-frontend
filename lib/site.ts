@@ -9,13 +9,13 @@ export const site = {
   name: "Optus",
   /** URL pública del sitio, sin barra final. */
   url: trim(process.env.NEXT_PUBLIC_SITE_URL || "https://optus.lat"),
-  email: "optus.aut@gmail.com",
+  email: "ventas@optus.lat",
   whatsappNumber,
   whatsappDisplay: `+591 ${whatsappNumber.slice(3)}`,
   whatsappUrl: `https://wa.me/${whatsappNumber}`,
   twitterHandle: "@OptusAut",
   social: [
-    { name: "Instagram", icon: "instagram", url: "https://www.instagram.com/optusaut/" },
+    { name: "Instagram", icon: "instagram", url: "https://www.instagram.com/opt.aut/" },
     { name: "Facebook", icon: "facebook", url: "https://www.facebook.com/optusteam" },
     { name: "X", icon: "x", url: "https://x.com/OptusAut" },
     { name: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/company/optus-aut/" },

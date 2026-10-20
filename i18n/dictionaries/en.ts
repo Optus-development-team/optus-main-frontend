@@ -185,6 +185,18 @@ const en: Dictionary = {
     madeIn: "Made in La Paz, Bolivia",
     backToTop: "Back to top",
   },
+  links: {
+    title: "Links",
+    desc: "Every Optus link: products, contact, social, team and awards in one place.",
+    lead: "All of Optus in one place: products, contact, social and team.",
+    products: "Products",
+    contact: "Contact",
+    social: "Social",
+    team: "Team",
+    awards: "Awards",
+    legal: "Legal",
+    visit: "Visit",
+  },
   notFound: {
     code: "404",
     title: "This page doesn't exist.",
@@ -206,7 +218,7 @@ const en: Dictionary = {
           title: "Who we are",
           body: [
             "Optus is a technology company based in La Paz, Bolivia, responsible for this site and for the Optipagos and Optimype brands.",
-            "For any privacy question you can write to us at optus.aut@gmail.com.",
+            "For any privacy question you can write to us at ventas@optus.lat.",
           ],
         },
         {
@@ -257,7 +269,7 @@ const en: Dictionary = {
         {
           title: "Your rights",
           body: [
-            "You can ask us to access, correct or delete your data, or object to its use, by writing to optus.aut@gmail.com. We will reply within a reasonable time and, if necessary, ask you to confirm your identity.",
+            "You can ask us to access, correct or delete your data, or object to its use, by writing to ventas@optus.lat. We will reply within a reasonable time and, if necessary, ask you to confirm your identity.",
           ],
         },
         {
@@ -344,7 +356,7 @@ const en: Dictionary = {
         },
         {
           title: "Contact",
-          body: ["If you have questions about these terms, write to us at optus.aut@gmail.com."],
+          body: ["If you have questions about these terms, write to us at ventas@optus.lat."],
         },
       ],
     },

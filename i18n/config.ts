@@ -1,8 +1,8 @@
 /**
  * Idiomas del sitio y sus direcciones públicas.
  *
- *   español (por defecto)   /            /privacidad       /terminos
- *   inglés                  /en          /en/privacy       /en/terms
+ *   español (por defecto)   /            /privacidad       /terminos       /enlaces
+ *   inglés                  /en          /en/privacy       /en/terms       /en/links
  *
  * Por dentro todas las páginas viven en app/[lang]/…; proxy.ts traduce entre ambas.
  */
@@ -17,11 +17,15 @@ export const isLocale = (value: string | undefined): value is Locale =>
 export const LOCALE_COOKIE = "lang";
 
 /** Segmento interno (bajo app/[lang]) de cada página. */
-const segments = { home: "", privacy: "/privacy", terms: "/terms" } as const;
+const segments = { home: "", privacy: "/privacy", terms: "/terms", links: "/links" } as const;
 export type RouteKey = keyof typeof segments;
 
 /** Direcciones en español que no coinciden con el segmento interno. */
-const spanishPaths: Record<string, string> = { "/privacy": "/privacidad", "/terms": "/terminos" };
+const spanishPaths: Record<string, string> = {
+  "/privacy": "/privacidad",
+  "/terms": "/terminos",
+  "/links": "/enlaces",
+};
 const internalPaths: Record<string, string> = Object.fromEntries(
   Object.entries(spanishPaths).map(([internal, spanish]) => [spanish, internal]),
 );
